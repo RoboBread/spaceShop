@@ -1,0 +1,372 @@
+*
+    box-sizing: border-box
+html
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+$semiWhite-color: rgba(255, 255, 255, 0.95)
+
+.container
+    max-width: 620px
+    margin: 0 auto
+.main-cont
+    min-height: 1720px
+    padding-bottom: 26px
+    background-color: #131316
+    &__content-cont
+        max-width: 1000px
+        margin: 0 auto
+        background: url(../img/bg.svg) no-repeat
+        background-size: contain
+    &__header
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 40px
+        padding-top: 20px
+        div
+            width: 180px
+            height: 40px
+            background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%)
+            border-radius: 4px
+            display: flex
+            justify-content: center
+            align-items: center
+        p
+            font-size: 16px
+            line-height: 21px
+            letter-spacing: 0.06em
+            text-transform: uppercase
+            color: #FFFFFF
+.first-section
+    &__cont
+        h1
+            font-size: 32px
+            line-height: 43px
+            color: #FFFFFF
+            text-align: center
+            height: 50px
+            margin-bottom: 20px
+    &__small-box
+        display: flex
+        flex-direction: row
+        margin-bottom: 10px
+    &__small-cont
+        width: 200px
+        height: 310px
+        background-color: $semiWhite-color
+        margin-right: 10px
+        border-radius: 4px
+        padding: 33px 0px 10px 0px
+        &:last-child
+            margin-right: 0px
+        &:nth-child(n+2)
+            padding-top: 25px
+            img
+                margin-bottom: 24px
+        &:last-child
+            .bottom-text
+                margin-left: 0px
+                display: flex
+                justify-content: center
+        img
+            margin-bottom: 37px
+        .bottom-text
+            display: flex
+            flex-direction: row
+            margin-left: 10px
+            margin-bottom: 10px
+    &__big-box
+        display: flex
+        flex-direction: row
+        margin-bottom: 50px
+    &__big-cont
+        width: 305px
+        height: 340px
+        background-color: $semiWhite-color
+        margin-right: 10px
+        border-radius: 4px
+        padding-top: 22px
+        &:last-child
+            padding-top: 4px
+        .big-text3
+            width: 285px
+            margin-left: 11px
+            margin-bottom: 10px
+        img
+            margin-bottom: 22px
+
+        &:last-child
+            margin-right: 0px
+        &_2
+            img
+                margin-bottom: 4.44px
+                height: 171.56px
+.button-order
+    width: 180px
+    height: 40px
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -942%, #4C4CFF 99.79%)
+    border-radius: 4px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-left: 10px
+    &_big
+        width: 285px
+    p
+        font-weight: 400
+        font-size: 16px
+        line-height: 21px
+        letter-spacing: 0.06em
+        text-transform: uppercase
+        color: #FFFFFF
+.text1
+    font-size: 16px
+    line-height: 21px
+    margin: 0px 10px 0px 10px
+    text-align: center
+    margin-bottom: 10px
+    height: 60px
+.text2
+    width: 90px
+    height: 30px
+    text-align: center
+    line-height: 30px
+    font-weight: 400
+    font-size: 16px
+    text-decoration-line: line-through
+    color: #D9D9D9
+.text3
+    width: 90px
+    height: 30px
+    text-align: center
+    line-height: 30px
+    font-weight: 700
+    font-size: 24px
+    color: #131316
+.second-section
+    &__cont
+        h2
+            font-size: 32px
+            line-height: 43px
+            color: #FFFFFF 
+            text-align: center
+            margin-bottom: 20px
+    &__content-box
+        display: flex
+        flex-direction: row
+    &__main-box
+        position: relative
+        width: 620px
+        height: 470px
+        border-radius: 4px
+        background-color: $semiWhite-color
+        margin-bottom: 60px
+        padding-right: 10px
+        padding-bottom: 35px
+        img
+            margin-right: 10px
+            width: 305px
+            height: 305px
+        &__right
+            margin-top: 30px
+            height: 247px
+            width: 295px
+            display: flex
+            flex-direction: column
+            .discount-box
+                display: flex
+                flex-direction: row
+                width: 240px
+                height: 30px
+                justify-content: space-between
+                &__title
+                    font-weight: 400
+                    font-size: 13px
+                    line-height: 17px
+                    color: #131316
+                &__text
+                    font-weight: 400
+                    font-size: 13px
+                    line-height: 17px
+                    color: #131316
+                    &_red
+                        color: #FF0000
+            &__text1
+                width: 295px
+                height: 30px
+                font-weight: 400
+                font-size: 16px
+                line-height: 21px
+                color: #131316
+                margin-bottom: 5px
+            &__text2
+                width: 295px
+                height: 30px
+                font-weight: 400
+                font-size: 13px
+                line-height: 17px
+                color: #131316
+                margin-bottom: 20px
+            &__text-box
+                display: flex
+                flex-direction: row
+                margin-bottom: 20px
+                p
+                    &:nth-child(-n+2)
+                        width: 60px
+                        height: 20px
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 21px
+                        text-decoration-line: line-through
+                        color: #D9D9D9
+                    &:nth-child(3)
+                        width: 60px
+                        height: 20px
+                        font-weight: 700
+                        font-size: 16px
+                        line-height: 21px
+                        color: #131316
+                .discount-box
+                    background-color: red
+                    border-radius: 4px
+                    width: 60px
+                    height: 24px
+                    p
+                        font-weight: 700
+                        font-size: 16px
+                        line-height: 21px
+                        color: #FFFFFF
+                        text-decoration-line: none
+                        text-align: center
+            &__icons-box
+                margin-bottom: 10px
+                img
+                    margin-right: 4px
+                    width: 28px
+                    height: 28px
+                    &:last-child
+                        margin-right: 0px
+                        opacity: 0.1
+    &__bottom
+        display: flex
+        align-items: center
+        flex-direction: column
+        &__button1
+            width: 280px
+            height: 60px
+            margin-bottom: 10px
+            border-radius: 4px
+            border: 1px dashed #131316
+            p
+                font-weight: 700
+                font-size: 16px
+                line-height: 60px
+                letter-spacing: 0.06em
+                text-transform: uppercase
+                color: #131316
+                text-align: center
+        &__button2
+            width: 280px
+            height: 60px
+            background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%)
+            border-radius: 4px
+            p
+                font-weight: 400
+                font-size: 16px
+                line-height: 60px
+                letter-spacing: 0.06em
+                text-transform: uppercase
+                color: #FFFFFF
+                text-align: center
+
+.footer
+    &__up-box
+        p
+            font-size: 16px
+            line-height: 21px
+            color: #FFFFFF
+            text-align: center
+            margin-bottom: 20px
+        img
+            margin-right: 20px
+            &:last-child
+                margin-right: 0px
+    &__bottom-box
+        display: flex
+        justify-content: space-between
+.text-box
+    p
+        font-size: 16px
+        line-height: 21px
+        color: #FFFFFF
+        a
+            text-decoration: underline
+            color: #FFFFFF
+            height: 20px
+    span
+        font-size: 13px
+        line-height: 17px
+        color: rgba(255, 255, 255, 0.5)
+        height: 20px
+.icons-box
+    display: flex
+    justify-content: center
+    margin-bottom: 30px
+.container
+    max-width: 620px
+    margin: 0 auto
+    
+// @media (max-width: 575px)
+//     .main-cont__content-cont 
+//         max-width: 100%
+//     .first-section__small-box 
+//         justify-content: center
+//     .first-section__small-cont 
+//         width: 170px
+//         height: 300px
+//     .first-section__small-cont img 
+//         width: 166px
+//     .text1 
+//         font-size: 14px
+//     .text3 
+//         font-size: 20px
+//     .button-order 
+//         width: 150px
+//     .main-cont__header 
+//         justify-content: space-around
+//     .first-section__big-box 
+//         justify-content: center
+//     .first-section__big-cont 
+//         width: 260px
+//         height: 320px
+//     .first-section__big-cont
+//         img
+//             width: 245px
+//             height: 139px
+//             margin-bottom: 10px
+//     .first-section__big-cont .big-text3 
+//         width: 260px
+//         margin-left: 0px
+//     .first-section__big-cont 
+//         padding-top: 5px
+//     .button-order_big 
+//         width: 240px
+//     .second-section__cont
+//         display: flex
+//         flex-direction: column
+//         align-items: center
+//     .second-section__main-box 
+//         width: 529px
+//     .second-section__main-box__right 
+//         width: 200px
+//     .second-section__main-box__right__text2 
+//         width: 251px
+//         font-size: 12px
+//     .second-section__main-box__right .discount-box__title 
+//         font-size: 11px
+//     .second-section__main-box__right .discount-box 
+//         width: 200px
+//     .footer__bottom-box 
+//         justify-content: space-around
